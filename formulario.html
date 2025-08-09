@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024">
+    <title>Fluminense Football Club</title>
+    <link rel="stylesheet" href="prj.css">
+    <link rel="shortcut icon" href="Imagens/logo-fluminense-4096.png" type="image/x-icon">
+    <style>
+        body {
+            min-width: 1024px; /* Largura mínima igual ao layout de PC */
+        }
+
+        html {
+            overflow-x: auto; /* Permite rolar horizontalmente se precisar */
+        }
+
+        .txt2 {
+            font-size: 22px;
+            color: white;
+            margin-left: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-shadow: 4px 3px 5px black;
+        }
+
+        .input1 {
+            font-size: 16px;
+            height: 50px;
+            margin-left: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 20px;
+            border: 5px solid green;
+
+        }
+
+        select {
+            font-size: 16px;
+            height: 50px;
+            margin-left: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 20px;
+            border: 5px solid green;
+        }
+
+        main {
+            text-align: center;
+            margin-top: 20px;
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    </head>
+
+    <body>
+        <Header>
+            <div id="iHead">
+                <img src="Imagens/logo-fluminense-4096.png" alt="" id="ilogo">
+                <p id="Ip"> Fluminense Football Club</p>
+            </div>
+
+        </Header>
+        <nav>
+            <div id="iNav">
+            <div class="txt"><a href="index.html"><b>Página inicial</b></a></div>
+            <div class="txt"><a href="historia.html"><b>História</b></a></div>
+            <div class="txt"><a href="questionario.html"> <b>Questionário</b></a></div>
+            <div class="txt"><a href="Imagens.html"> <b>Imagens</b></a></div>
+            <div class="txt"><a href="formulario.html"><b>Formulário</b></a></div>
+            <div class="txt"><a href="videos.html"><b>Vídeos</b></a></div>
+            </div>
+        </nav>
+        <main>
+
+            <div class="form-box">
+
+                <p class="txt2"><b>Nome Completo</b></p>
+                <input type="text" class="input1">
+
+                <p class="txt2"><b>Data de Nascimento</b></p>
+                <input type="date" class="input1">
+
+                <p class="txt2"><b>Nome completo do pai</b></p>
+                <input type="text" class="input1">
+
+                <p class="txt2"><b>Nome completo da mãe</b></p>
+                <input type="text" class="input1">
+
+                <p class="txt2"><b>Email</b></p>
+                <input type="email" class="input1">
+
+                <p class="txt2"><b>Telefone</b></p>
+                <input type="tel" class="input1">
+
+
+                <p class="txt2"><b>CPF</b></p>
+                <input type="text" class="input1">
+            </div>
+
+
+            <div class="form-box">
+                <p class="txt2"><b>Logradouro</b></p>
+                <input type="text" class="input1">
+
+                <p class="txt2"><b>Número</b></p>
+                <input type="text" class="input1">
+
+                <p class="txt2"><b>Complemento</b></p>
+                <input type="text" class="input1">
+
+                <p class="txt2"><b>Bairro</b></p>
+                <input type="text" class="input1">
+
+                <p class="txt2"><b>Cidade</b></p>
+                <input type="text" class="input1">
+
+                <p class="txt2"><b>CEP</b></p>
+                <input type="text" class="input1">
+
+                <p class="txt2"><b>RG</b></p>
+                <input type="text" class="input1">
+            </div>
+
+
+            <div class="uf-box">
+                <p class="txt2"><b>UF</b></p>
+                <select class="input1">
+                    <option value="">--Selecione--</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+        </main>
+
+
+        <footer>
+            <div>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/FluminenseFC" target="_blank" rel="noopener noreferrer">
+                    <img class="rsc" src="Imagens/facebook-icone-vert.png" alt="Facebook do Fluminense" />
+                </a>
+
+                <!-- Twitter -->
+                <a href="https://twitter.com/FluminenseFC" target="_blank" rel="noopener noreferrer">
+                    <img class="rsc" src="Imagens/images.png" alt="Twitter do Fluminense" />
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/fluminensefc" target="_blank" rel="noopener noreferrer">
+                    <img class="rsc" src="Imagens/images (1).png" alt="Instagram do Fluminense" />
+                </a>
+
+            </div>
+        </footer>
+
+    </body>
+
+</html>

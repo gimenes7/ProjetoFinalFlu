@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1024">
+    <title>Questionário Fluminense</title>
+    <link rel="stylesheet" href="prj.css">
+    <link rel="shortcut icon" href="Imagens/logo-fluminense-4096.png" type="image/x-icon">
+    
+    <style>
+        body {
+            min-width: 1024px; /* Largura mínima igual ao layout de PC */
+        }
+
+        html {
+            overflow-x: auto; /* Permite rolar horizontalmente se precisar */
+        }
+
+        main {
+            text-align: center;
+        }
+
+        .quiz {
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 25px;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #006633;
+            margin-bottom: 25px;
+            color: white;
+        }
+
+        fieldset {
+            border: 8px solid #006633;
+            border-radius: 20px;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            background-color: white;
+            color: #006633;
+            font-size: 20px;
+        }
+
+        .pergunta {
+            color: green;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: left;
+            text-align: center;
+        }
+
+        label {
+            cursor: pointer;
+            display: block;
+            margin: 8px 0;
+        }
+
+        .Gabarito {
+            width: 80%;
+            background-color: white;
+            text-align: center;
+            min-height: 200px;
+            margin: 30px auto;
+            padding: 25px;
+            border: 8px solid #006633;
+            border-radius: 20px;
+            color: #006633;
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .Gabarito details {
+            margin-bottom: 18px;
+        }
+
+        .Gabarito details:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="iHead">
+            <img src="Imagens/logo-fluminense-4096.png" alt="Logo Fluminense" id="ilogo" />
+            <p id="Ip">Fluminense Football Club</p>
+        </div>
+    </header>
+
+    <nav id="iNav">
+        <div class="txt"><a href="index.html"><b>Página inicial</b></a></div>
+        <div class="txt"><a href="historia.html"><b>História</b></a></div>
+        <div class="txt"><a href="questionario.html"> <b>Questionário</b></a></div>
+        <div class="txt"><a href="Imagens.html"> <b>Imagens</b></a></div>
+        <div class="txt"><a href="formulario.html"><b>Formulário</b></a></div>
+        <div class="txt"><a href="videos.html"><b>Vídeos</b></a></div>
+    </nav>
+
+    <main class="main">
+
+        <h1>Quiz sobre o Fluminense Football Club</h1>
+        <div class="quiz">
+
+            <fieldset>
+                <p class="pergunta">1. Em que ano foi fundado o Fluminense?</p>
+                <label><input type="radio" name="q1" value="1902" required /> 1920</label>
+                <label><input type="radio" name="q1" value="1899" /> 1899</label>
+                <label><input type="radio" name="q1" value="1910" /> 1910</label>
+                <label><input type="radio" name="q1" value="1920" /> 1902</label>
+            </fieldset>
+
+            <fieldset>
+                <p class="pergunta">2. Qual é o apelido tradicional do Fluminense?</p>
+                <label><input type="radio" name="q2" value="Tricolor" required /> Furacão</label>
+                <label><input type="radio" name="q2" value="Galo" /> Galo</label>
+                <label><input type="radio" name="q2" value="Furacão" /> Tricolor</label>
+                <label><input type="radio" name="q2" value="Vasco" /> Vasco</label>
+            </fieldset>
+
+            <fieldset>
+                <p class="pergunta">3. Quantos títulos brasileiros o Fluminense possui até 2025?</p>
+                <label><input type="radio" name="q3" value="4" required /> 4</label>
+                <label><input type="radio" name="q3" value="3" /> 3</label>
+                <label><input type="radio" name="q3" value="5" /> 5</label>
+                <label><input type="radio" name="q3" value="2" /> 2</label>
+            </fieldset>
+
+            <fieldset>
+                <p class="pergunta">4. Qual estádio é a casa do Fluminense?</p>
+                <label><input type="radio" name="q4" value="Maracanã" required /> Morumbi</label>
+                <label><input type="radio" name="q4" value="Morumbi" /> Maracanã</label>
+                <label><input type="radio" name="q4" value="Mané Garrincha" /> Mané Garrincha</label>
+                <label><input type="radio" name="q4" value="Mineirão" /> Mineirão</label>
+            </fieldset>
+
+            <fieldset>
+                <p class="pergunta">5. Qual a cor predominante da camisa do Fluminense?</p>
+                <label><input type="radio" name="q5" value="Verde, Branco e Grená" required /> Vermelho e Branco</label>
+                <label><input type="radio" name="q5" value="Azul e Branco" /> Azul e Branco</label>
+                <label><input type="radio" name="q5" value="Preto e Branco" /> Preto e Branco</label>
+                <label><input type="radio" name="q5" value="Vermelho e Branco" /> Verde, Branco e Grená</label>
+            </fieldset>
+
+        </div>
+        <h1>
+            Gabarito
+        </h1>
+        <div class=" Gabarito">
+
+
+            <details class="gab2">
+                <summary>1. Em que ano foi fundado o Fluminense?</summary>
+                1902
+            </details>
+            <br>
+
+            <details class="gab2">
+                <summary>2. Qual é o apelido tradicional do Fluminense?</summary>
+                Tricolor
+            </details>
+            <br>
+
+            <details class="gab2">
+                <summary>3. Quantos títulos brasileiros o Fluminense possui até 2025?</summary>
+                4
+            </details>
+            <br>
+
+            <details class="gab2">
+                <summary>4. Qual estádio é a casa do Fluminense?</summary>
+                Maracanã
+            </details>
+            <br>
+
+            <details class="gab2">
+                <summary>5. Qual a cor predominante da camisa do Fluminense?</summary>
+                Verde, Branco e Grená
+            </details>
+
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/FluminenseFC" target="_blank" rel="noopener noreferrer">
+                <img class="rsc" src="Imagens/facebook-icone-vert.png" alt="Facebook do Fluminense" />
+            </a>
+
+            <!-- Twitter -->
+            <a href="https://twitter.com/FluminenseFC" target="_blank" rel="noopener noreferrer">
+                <img class="rsc" src="Imagens/images.png" alt="Twitter do Fluminense" />
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/fluminensefc" target="_blank" rel="noopener noreferrer">
+                <img class="rsc" src="Imagens/images (1).png" alt="Instagram do Fluminense" />
+            </a>
+
+        </div>
+    </footer>
+</body>
+
+</html>
